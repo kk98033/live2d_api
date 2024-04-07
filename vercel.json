@@ -1,34 +1,40 @@
 {
     "functions": {
         "api/add/index.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/get/index.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/rand/index.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/rand_textures/index.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/switch/index.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/switch_textures/index.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/tools/jsonCompatible.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/tools/modelList.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/tools/modelTextures.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         },
         "api/tools/name-to-lower.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.0"
         }
-    }
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/get/index.php"
+        }
+    ]
 }
