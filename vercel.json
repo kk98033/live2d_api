@@ -12,13 +12,22 @@
         "api/rand_textures/index.php": {
             "runtime": "vercel-php@0.6.0"
         },
-        "api/tools/*.php": {
-            "runtime": "vercel-php@0.6.0"
-        },
         "api/switch/index.php": {
             "runtime": "vercel-php@0.6.0"
         },
         "api/switch_textures/index.php": {
+            "runtime": "vercel-php@0.6.0"
+        },
+        "api/tools/jsonCompatible.php": {
+            "runtime": "vercel-php@0.6.0"
+        },
+        "api/tools/modelList.php": {
+            "runtime": "vercel-php@0.6.0"
+        },
+        "api/tools/modelTextures.php": {
+            "runtime": "vercel-php@0.6.0"
+        },
+        "api/tools/name-to-lower.php": {
             "runtime": "vercel-php@0.6.0"
         }
     },
