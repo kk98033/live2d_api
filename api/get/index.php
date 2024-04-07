@@ -1,9 +1,9 @@
 <?php
 isset($_GET['id']) ? $id = $_GET['id'] : exit('error');
 
-require '../../tools/modelList.php';
-require '../../tools/modelTextures.php';
-require '../../tools/jsonCompatible.php';
+require '../tools/modelList.php';
+require '../tools/modelTextures.php';
+require '../tools/jsonCompatible.php';
 
 $modelList = new modelList();
 $modelTextures = new modelTextures();

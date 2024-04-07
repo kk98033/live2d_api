@@ -1,7 +1,7 @@
 <?php
 
-require '../../tools/modelList.php';
-require '../../tools/modelTextures.php';
+require '../tools/modelList.php';
+require '../tools/modelTextures.php';
 
 $modelList = new modelList();
 $modelTextures = new modelTextures();
