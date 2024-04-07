@@ -30,11 +30,5 @@
         "api/tools/name-to-lower.php": {
             "runtime": "vercel-php@0.6.0"
         }
-    },
-    "routes": [
-        {
-            "src": "/api/(.*)",
-            "dest": "/api/$1"
-        }
-    ]
+    }
 }
